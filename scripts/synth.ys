@@ -1,0 +1,40 @@
+# ==============================================================================
+# SCL 1.2 um Logic Synthesis Script for 2D FIR Filter ASIC
+# ==============================================================================
+
+# 1. Read SCL 1.2um standard cell Liberty timing library
+read_liberty -lib /mnt/g/VLSI_Projects/FIR2D_Filter_SCL1p2um/pdk_scl_1p2um/digital_c1d/lib/c1d_core_typ.lib
+
+# 2. Read RTL sources
+read_verilog /mnt/g/VLSI_Projects/FIR2D_Filter_SCL1p2um/rtl/line_buffer.v
+read_verilog /mnt/g/VLSI_Projects/FIR2D_Filter_SCL1p2um/rtl/window_3x3.v
+read_verilog /mnt/g/VLSI_Projects/FIR2D_Filter_SCL1p2um/rtl/conv_engine_3x3.v
+read_verilog /mnt/g/VLSI_Projects/FIR2D_Filter_SCL1p2um/rtl/fir2d_top.v
+
+# 3. Elaborate and check design hierarchy
+hierarchy -check -top fir2d_top
+
+# 4. High-level synthesis optimizations
+proc; opt; fsm; opt; memory; opt
+
+# 5. Technology mapping
+techmap; opt
+
+# 6. Sequential mapping to SCL 1.2um DFF cells
+dfflibmap -liberty /mnt/g/VLSI_Projects/FIR2D_Filter_SCL1p2um/pdk_scl_1p2um/digital_c1d/lib/c1d_core_typ.lib
+
+# 7. Combinational logic mapping to SCL 1.2um standard cells
+abc -liberty /mnt/g/VLSI_Projects/FIR2D_Filter_SCL1p2um/pdk_scl_1p2um/digital_c1d/lib/c1d_core_typ.lib
+
+# 8. Flatten hierarchy for seamless OpenROAD physical design
+flatten
+
+# 9. Clean up unused nets and cells
+opt; clean -purge
+
+# 9. Area and cell utilization reports
+tee -o /mnt/g/VLSI_Projects/FIR2D_Filter_SCL1p2um/reports/synthesis_cells.rpt stat -liberty /mnt/g/VLSI_Projects/FIR2D_Filter_SCL1p2um/pdk_scl_1p2um/digital_c1d/lib/c1d_core_typ.lib
+tee -o /mnt/g/VLSI_Projects/FIR2D_Filter_SCL1p2um/reports/synthesis_area.rpt stat
+
+# 10. Write synthesized gate-level netlist
+write_verilog -noattr -noexpr -nodec /mnt/g/VLSI_Projects/FIR2D_Filter_SCL1p2um/synthesis/fir2d_gate.v

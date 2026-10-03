@@ -1,0 +1,95 @@
+Startpoint: _2248_ (rising edge-triggered flip-flop clocked by core_clk)
+Endpoint: _2200_ (rising edge-triggered flip-flop clocked by core_clk)
+Path Group: core_clk
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.20    0.00    0.00   clock core_clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.20    0.00    0.00 ^ _2248_/C (DFCL11)
+     2    0.22    0.84    2.34    2.34 ^ _2248_/Q (DFCL11)
+                                         u_conv.pipe_valid (net)
+                  0.84    0.00    2.34 ^ _2200_/D (DFCL11)
+                                  2.34   data arrival time
+
+                  0.20    0.00    0.00   clock core_clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.50    0.50   clock uncertainty
+                          0.00    0.50   clock reconvergence pessimism
+                                  0.50 ^ _2200_/C (DFCL11)
+                          0.13    0.63   library hold time
+                                  0.63   data required time
+-----------------------------------------------------------------------------
+                                  0.63   data required time
+                                 -2.34   data arrival time
+-----------------------------------------------------------------------------
+                                  1.71   slack (MET)
+
+
+Startpoint: valid_in (input port clocked by core_clk)
+Endpoint: _1344_ (rising edge-triggered flip-flop clocked by core_clk)
+Path Group: core_clk
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.20    0.00    0.00   clock core_clk (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          4.00    4.00 v input external delay
+   207   22.33   47.64   24.66   28.66 v valid_in (in)
+                                         valid_in (net)
+                 47.64    0.00   28.66 v _1314_/IN1 (AND301)
+     7    0.61    2.48   10.63   39.28 v _1314_/OUT1 (AND301)
+                                         _0001_ (net)
+                  2.48    0.00   39.28 v _1317_/IN3 (AND401)
+     4    0.36    1.34    1.66   40.94 v _1317_/OUT1 (AND401)
+                                         _0000_ (net)
+                  1.34    0.00   40.94 v _1320_/IN1 (NOR300)
+     1    0.17    2.55    1.35   42.29 ^ _1320_/OUT1 (NOR300)
+                                         _0004_ (net)
+                  2.55    0.00   42.29 ^ _1344_/D (DFCL11)
+                                 42.29   data arrival time
+
+                  0.20   20.00   20.00   clock core_clk (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.50   19.50   clock uncertainty
+                          0.00   19.50   clock reconvergence pessimism
+                                 19.50 ^ _1344_/C (DFCL11)
+                         -1.17   18.33   library setup time
+                                 18.33   data required time
+-----------------------------------------------------------------------------
+                                 18.33   data required time
+                                -42.29   data arrival time
+-----------------------------------------------------------------------------
+                                -23.96   slack (VIOLATED)
+
+
+wns -23.96
+tns -4868.24
+Clock core_clk
+   3.62 source latency _1345_/C ^
+  -3.59 target latency _1344_/C ^
+   0.50 clock uncertainty
+   0.00 CRPR
+--------------
+   0.53 setup skew
+
+max slew
+
+Pin                                    Limit    Slew   Slack
+------------------------------------------------------------
+_2208_/CLRB                             2.50   49.45  -46.95 (VIOLATED)
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+rst_n                                     8    440   -432 (VIOLATED)
+
+max capacitance
+
+Pin                                    Limit     Cap   Slack
+------------------------------------------------------------
+rst_n                                   0.81   23.15  -22.35 (VIOLATED)
+

@@ -1,0 +1,39 @@
+20. Printing statistics.
+
+=== fir2d_top ===
+
+   Number of wires:               1342
+   Number of wire bits:           1698
+   Number of public wires:          43
+   Number of public wire bits:     284
+   Number of ports:                  9
+   Number of port bits:             24
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1354
+     $scopeinfo                      4
+     ADNR01                        105
+     ADOR16                          8
+     AND201                         30
+     AND301                         23
+     AND401                          1
+     AND501                          3
+     AOI401                         11
+     DFCL11                        270
+     INVR01                         36
+     MX201B                          2
+     MX2101                        216
+     NND201                        181
+     NND300                         14
+     NND401                          1
+     NOR200                        115
+     NOR300                         16
+     NOR401                          1
+     OR2101                         55
+     OR3101                         14
+     OR4101                          2
+     ORND01                         70
+     XNR201                        105
+     XOR201                         71
+
