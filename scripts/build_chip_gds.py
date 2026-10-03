@@ -132,27 +132,55 @@ def add_via_array(x1, y1, x2, y2):
         for y in range(int(y1 + 2500), int(y2 - 2500), step):
             add_exact_via(x, y)
 
-# Power Ring Interconnects:
-# Connect Core Power Rails to Padframe Power Pads
-# Bottom PVSS01 at (1400 um, 304.9 um) and PVDD01 at (2450 um, 304.9 um)
-top.shapes(m1_layer).insert(pya.Box(1395000, 304900, 1405000, 500000))
-top.shapes(m2_layer).insert(pya.Box(1395000, 304900, 1405000, 500000))
-add_via_array(1395000, 490000, 1405000, 500000)
+# ==============================================================================
+# Robust Power Connections between Padframe Power Pads and Core Power Rings
+# Core VDD Rings:
+#   Left M2:   X in [451.0, 458.0] um (center 454.5 um)
+#   Right M2:  X in [3542.0, 3549.0] um (center 3545.5 um)
+#   Bottom M1: Y in [494.5, 501.5] um (center 498.0 um)
+#   Top M1:    Y in [3458.8, 3465.8] um (center 3462.3 um)
+# Core VSS Rings:
+#   Left M2:   X in [463.0, 470.0] um (center 466.5 um)
+#   Right M2:  X in [3530.0, 3537.0] um (center 3533.5 um)
+#   Bottom M1: Y in [506.5, 513.5] um (center 510.0 um)
+#   Top M1:    Y in [3446.8, 3453.8] um (center 3450.3 um)
+# ==============================================================================
 
-top.shapes(m1_layer).insert(pya.Box(2445000, 304900, 2455000, 500000))
-top.shapes(m2_layer).insert(pya.Box(2445000, 304900, 2455000, 500000))
-add_via_array(2445000, 490000, 2455000, 500000)
+pw = 10000 # 20 um strap width (+/- 10 um)
 
-# Top PVDD01 at (1400 um, 3695.1 um) and PVSS01 at (2450 um, 3695.1 um)
-top.shapes(m1_layer).insert(pya.Box(1395000, 3500000, 1405000, 3695100))
-top.shapes(m2_layer).insert(pya.Box(1395000, 3500000, 1405000, 3695100))
-add_via_array(1395000, 3500000, 1405000, 3510000)
+# 1. Left PVDD01 at Y=1475.6 um: connects M1 from pad (X=304.9 um) to VDD M2 ring (X=458 um)
+top.shapes(m1_layer).insert(pya.Box(304900, 1475600 - pw, 458000, 1475600 + pw))
+add_via_array(451000, 1475600 - pw, 458000, 1475600 + pw)
 
-top.shapes(m1_layer).insert(pya.Box(2445000, 3500000, 2455000, 3695100))
-top.shapes(m2_layer).insert(pya.Box(2445000, 3500000, 2455000, 3695100))
-add_via_array(2445000, 3500000, 2455000, 3510000)
+# 2. Left PVSS01 at Y=2525.6 um: connects M1 from pad (X=304.9 um) to VSS M2 ring (X=470 um)
+top.shapes(m1_layer).insert(pya.Box(304900, 2525600 - pw, 470000, 2525600 + pw))
+add_via_array(463000, 2525600 - pw, 470000, 2525600 + pw)
 
-print("Created robust 10um VDD and VSS power strap interconnects with DRC-legal via arrays")
+# 3. Right PVSS01 at Y=1475.6 um: connects M1 from pad (X=3695.1 um) to VSS M2 ring (X=3530 um)
+top.shapes(m1_layer).insert(pya.Box(3530000, 1475600 - pw, 3695100, 1475600 + pw))
+add_via_array(3530000, 1475600 - pw, 3537000, 1475600 + pw)
+
+# 4. Right PVDD01 at Y=2525.6 um: connects M1 from pad (X=3695.1 um) to VDD M2 ring (X=3542 um)
+top.shapes(m1_layer).insert(pya.Box(3542000, 2525600 - pw, 3695100, 2525600 + pw))
+add_via_array(3542000, 2525600 - pw, 3549000, 2525600 + pw)
+
+# 5. Bottom PVSS01 at X=1475.6 um: connects M2 from pad (Y=304.9 um) to VSS M1 ring (Y=513.5 um)
+top.shapes(m2_layer).insert(pya.Box(1475600 - pw, 304900, 1475600 + pw, 513500))
+add_via_array(1475600 - pw, 506500, 1475600 + pw, 513500)
+
+# 6. Bottom PVDD01 at X=2525.6 um: connects M2 from pad (Y=304.9 um) to VDD M1 ring (Y=501.5 um)
+top.shapes(m2_layer).insert(pya.Box(2525600 - pw, 304900, 2525600 + pw, 501500))
+add_via_array(2525600 - pw, 494500, 2525600 + pw, 501500)
+
+# 7. Top PVDD01 at X=1475.6 um: connects M2 from pad (Y=3695.1 um) to VDD M1 ring (Y=3458.8 um)
+top.shapes(m2_layer).insert(pya.Box(1475600 - pw, 3458800, 1475600 + pw, 3695100))
+add_via_array(1475600 - pw, 3458800, 1475600 + pw, 3465800)
+
+# 8. Top PVSS01 at X=2525.6 um: connects M2 from pad (Y=3695.1 um) to VSS M1 ring (Y=3446.8 um)
+top.shapes(m2_layer).insert(pya.Box(2525600 - pw, 3446800, 2525600 + pw, 3695100))
+add_via_array(2525600 - pw, 3446800, 2525600 + pw, 3453800)
+
+print("Created 8 complete 20um low-impedance VDD and VSS power strap interconnects directly to core rings")
 
 # Signal trace width = 2.5 um (SCL Rule 8.2.1 / 10.2.1)
 hw = 1250

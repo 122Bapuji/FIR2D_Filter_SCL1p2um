@@ -309,7 +309,7 @@ def main():
     h1.paragraph_format.space_after = Pt(8)
 
     add_justified_p(doc,
-        "The complete chip database integrates the routed digital core into the official SCL 4.0 mm × 4.0 mm pad frame (frame4mmx4mm.gds). The layout contains 40 physical pads organized with a minimum pitch of 350 µm:"
+        "The complete chip database integrates the routed digital core into the official SCL 4.0 mm × 4.0 mm pad frame (frame4mmx4mm.gds). The layout contains 40 physical pads organized with a minimum pitch of 350 µm, comprising 32 functional signal I/O pads and 8 dedicated power/ground pads (PVDD01 and PVSS01) distributed symmetrically along each of the four die edges. Robust power delivery is established through 8 wide 20 µm low-impedance planar straps connecting each peripheral power pad directly to the internal core dual concentric power rings (M1 VDD/VSS and M2 VDD/VSS) via dense 5×5 arrays of 2 µm × 2 µm VIA1 contacts. This ensures minimal IR drop, prevents ground bounce during peak capacitive switching of the filter arithmetic pipelines, and guarantees full DRC compliance."
     )
 
     # Insert Figure: Full Chip Layout
@@ -351,7 +351,7 @@ def main():
 
         p_cap = doc.add_paragraph()
         p_cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        r_cap = p_cap.add_run("Figure 5.3: Pad Frame Corner Assembly with ESD Guard Rings (Left) and Core-to-Pad Metal Routing Interconnects with 10 µm Power Straps (Right).")
+        r_cap = p_cap.add_run("Figure 5.3: Pad Frame Corner Assembly with ESD Guard Rings (Left) and Core-to-Pad Metal Routing Interconnects with 20 µm Power Straps (Right).")
         r_cap.font.size = Pt(9.5)
         r_cap.font.italic = True
         doc.add_paragraph().paragraph_format.space_after = Pt(6)
