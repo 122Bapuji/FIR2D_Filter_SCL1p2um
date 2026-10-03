@@ -1,0 +1,7 @@
+# Ignore local PDK copy and run artifacts
+pdk_scl_1p2um/
+padframe/PadFrame_C1D/
+*.log
+*.odb
+*.lvsdb
+*.cir
