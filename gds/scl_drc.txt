@@ -1,0 +1,4222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>SCL DRC runset</description>
+ <original-file/>
+ <generator>drc: script='/home/vlsi_bbn/open_source_scl_c1d/open_pdks/scl_c1d/libs.tech/klayout/tech/drc/c1d_drc.drc'</generator>
+ <top-cell>fir2d_top</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>1.1.1 &amp; 1.1.2 : Minimum Nwell width violations = 4.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>1.2.2 : Minimum Nwell spacing violations = 7.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>1.3.2 : Minimium spacing Ndiff outside nwell = 3.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>1.3.3 : Minimum spacing Pdiff inside Nwell = 3.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>2.1.1 : Minimum Ndiff Width violations =  2.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>2.1.2 : Minimum Pdiff Width violations =  2.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>2.2.1 : Minimum Ndiff spacing violations =  1.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>2.2.2 : Minimum Pdiff spacing violations =  1.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>2.2.3 : Minimum Pdiff to Ndiff Spacing violations =  1.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>3.1.1 : Shapes present in Nwell_rev XOR Nwell</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.1.1 : Minimum Poly width violations  =  1.2um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.2.1 : Minimum Poly to diffusion spacing violations =  0.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.2.2 : Minimum Poly spacing edge violations = 1.3um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.3.1 &amp; 4.3.2 : Minimum NMOS length : 1.2um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.3.1 &amp; 4.3.2 : Minimum NMOS Area : 3.0umÂ²</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.3.1 &amp; 4.3.3 : Minimum PMOS length : 1.5u</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.3.1 &amp; 4.3.3 : Minimum PMOS Area : 3.75umÂ²</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.4.1 : Minimum Poly Extension beyond Gate : 1.2um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.5.1 : Minimum Diffusion extenion beyond Gate violations = 2.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>4.6.1 : Poly dimension exceeds Maximum 30u x 30u</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>5.1.1 and 5.1.2 : Minimum Boron width violations =  2.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>5.4.1 : Minimum enclosure of Diffusion by Boron violations =  0.7um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>5.4.1 : Minimum overlap of Diffusion by Boron violations =  0.7um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>5.5.1 : Minimum Boron to Ndiff spacing violations = 0.7um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>5.7.1 : Minimum Boron spacing violations =  1.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>6.1.1 : Shapes present in Boron_rev XOR Boron</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.1.1 : Contacts not exactly 1.5u x 1.5u</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.2.1 &amp; 7.2.2 : Maximum Nplus substrate contact size violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.2.1 &amp; 7.2.2 : Maximum Pplus substrate contact size violations</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.3.1 : Minimum Contact spacing violations =  1.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.4.1 :  Minimum enclosure of Poly to Contact violations = 0.7um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.4.2 : Minimum enclosure of Diffusion to Contact violations =  1.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.5.1 : Minimum Diffusion contact spacing tO Poly gate = 1.2um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.6.1 : Minimum Poly contact spacing tO active Gate area = 1.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.7.1 : Minimum butted Contact extension to Boron</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.7.1 : Minimum butted Diffusion Contact width = 2.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.1 : Poly Contact in Diffusion NOT ALLOWED</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>7.2 : Contact NOT IN Poly OR Diffusion AND Metal1</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.1.1 : Minimum Metal1 spacing violations = 1.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.2.1 : Minimum Metal1 width violations = 2.4um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.3.1 : Minimum Metal1 enclose to contact violations = 0.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.4.1 : Minimum Metal1 enclousure to Pad Contacts =  1.2um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.9.1 : Minimum bonding Pad spacing to Diffusion violations = 10.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.9.2 : Minimum bonding Pad spacing to Poly violations = 30.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.9.3 : Minimum bonding Pad spacing to Contact violations = 15.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.9.4 : Minimum bonding Pad spacing to Metal1 violations = 30.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.9.5 : Minimum enclousure of Metal1 to Pad window violations = 5.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>8.1 : NO Poly allowed underneath bonding Pad Metal1</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>9.1.1 : Exact via width = 1.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>9.2.1 : Minimum via to via spacing violations = 1.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>9.3.1 : Minimum via to contact spacing violations = 1.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>9.4.1 : Minimum via to Poly spacing violations = 1.2um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>9.5.1 : Minimum Metal1 enclose to via violations = 0.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>9.6.1 : Minimum Metal2 enclose to via violations = 0.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.7um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>10.2.1 : Minimum Metal2 width violations = 2.5um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>10.3.2 : Minimum bonding pad spacing to via violations = 15.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>10.3.3 : Minimum bonding pad metal spacing to Metal2 violations = 30.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>10.3.5 : Minimum enclosure of Metal2 to pad violations = 5.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>11.1.1 : Minimum pad window size = 90 X 90 </name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>11.2.1 : Minimum pad to pad spacing violations = 100.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>11.1 : unwanted Nguardbar CONNECTED TO SOURCE/DRAIN OF nmos</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>11.2 : unwanted Pguardbar CUTTING nwell</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>11.3 : pad Metal NOT ON Metal1 OR Metal2 ARE ILLEGAL</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>rnwell width violations = 10.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>@GUIDELINE-3 Bad contact covering nwell resistor</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name> @GUIDELINE-3 Bad contact covering npoly resistor</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>@GUIDELINE-3 Bad contact covering ppoly resistor</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>@GUIDELINE_4_floating_gates  </name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name> @GUIDELINE-6 AVOID PLACING vias ON diff EDGES</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>@GUIDELINE-5 distance pgate welltap &gt; 100.0um  </name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>@GUIDELINE-5 distance ngate subtap &gt; 100.0um</name>
+   <description/>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>fir2d_top</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'5.4.1 : Minimum overlap of Diffusion by Boron violations =  0.7um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2414.9,1834.95;2413.84,1834.95)/(2413.14,1834.95;2414.2,1834.95)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.4.1 : Minimum overlap of Diffusion by Boron violations =  0.7um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1611.14,471.35;1610.08,471.35)/(1609.38,471.35;1610.44,471.35)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.4.1 : Minimum overlap of Diffusion by Boron violations =  0.7um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2530.1,1445.35;2529.04,1445.35)/(2528.34,1445.35;2529.4,1445.35)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.5.1 : Minimum Boron to Ndiff spacing violations = 0.7um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1960.58,1834.95;1960.58,1835.621)/(1960.38,1834.95;1960.38,1834.279)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.5.1 : Minimum Boron to Ndiff spacing violations = 0.7um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (962.77,1640.15;962.77,1640.821)/(962.57,1640.15;962.57,1639.479)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.5.1 : Minimum Boron to Ndiff spacing violations = 0.7um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1611.14,471.35;1610.08,471.35)/(1609.38,471.35;1610.44,471.35)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.5.1 : Minimum Boron to Ndiff spacing violations = 0.7um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2414.9,1834.95;2413.84,1834.95)/(2413.14,1834.95;2414.2,1834.95)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.5.1 : Minimum Boron to Ndiff spacing violations = 0.7um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1954.75,1445.35;1954.75,1446.021)/(1954.55,1445.35;1954.55,1444.679)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.5.1 : Minimum Boron to Ndiff spacing violations = 0.7um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2530.1,1445.35;2529.04,1445.35)/(2528.34,1445.35;2529.4,1445.35)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1962.62,1841.995;1962.62,1843.8)|(1961.23,1844.364;1961.23,1841.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2487.1,1939.395;2487.1,1941.2)|(2486.6,1942.614;2486.6,1939.395)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2286.55,1825.2;2286.55,1834.95)|(2285.07,1834.95;2285.07,1825.3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2286.55,1841.995;2286.55,1843.8)|(2285.07,1844.044;2285.07,1841.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1929.78,2899.1;1929.78,2906.35)|(1929.24,2906.35;1929.24,2897.701)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2568.47,2134.195;2568.47,2136)|(2568.29,2137.489;2568.29,2134.195)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1885.46,2523.795;1885.46,2528.1)|(1884.69,2528.9;1884.69,2523.795)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2415.9,1841.995;2415.9,1847.1)|(2415.05,1846.8;2415.05,1841.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2487.1,1922.6;2487.1,1932.35)|(2486.6,1932.35;2486.6,1922.7)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2252.45,2606.9;2252.45,2614.15)|(2251.07,2614.15;2251.07,2606.312)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2252.45,2621.195;2252.45,2622.35)|(2251.07,2622.938;2251.07,2621.195)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2745.47,1826.682;2745.47,1834.95)|(2745.16,1834.95;2745.16,1828.15)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1933.09,1730.75;1933.09,1737.55)|(1932.26,1737.55;1932.26,1729.501)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2038.52,2718.595;2038.52,2719.75)|(2037.36,2720.45;2037.36,2718.595)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2038.52,2705.399;2038.52,2711.55)|(2037.36,2711.55;2037.36,2706.35)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1885.46,2511.55;1885.46,2516.75)|(1884.69,2516.75;1884.69,2510.263)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1929.78,2913.395;1929.78,2914.55)|(1929.24,2915.949;1929.24,2913.395)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2745.47,1841.995;2745.47,1843.8)|(2745.16,1845.268;2745.16,1841.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2568.47,2117.411;2568.47,2127.15)|(2568.29,2127.15;2568.29,2118.9)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (846.96,1744.595;846.96,1749.4)|(846.07,1748.2;846.07,1744.595)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (763.6,1744.595;763.6,1746.4)|(763.42,1747.5;763.42,1744.595)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1646.31,1825.3;1646.31,1834.95)|(1645.49,1834.95;1645.49,1825.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1364,2426.395;1364,2428.7)|(1363.63,2430.154;1363.63,2426.395)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1348.03,1926.7;1348.03,1932.35)|(1347.1,1932.35;1347.1,1925.523)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1364,2411.8;1364,2419.35)|(1363.63,2419.35;1363.63,2410.346)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (780.83,1825.3;780.83,1834.95)|(779.84,1834.95;779.84,1825.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1636.41,2218.9;1636.41,2224.55)|(1635.06,2224.55;1635.06,2218.246)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (913.09,1744.595;913.09,1749.644)|(911.63,1749.3;911.63,1744.595)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (913.09,1729.3;913.09,1737.55)|(911.63,1737.55;911.63,1728.956)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1188.23,1841.995;1188.23,1848.537)|(1187.8,1847.1;1187.8,1841.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1110.69,2328.995;1110.69,2333.3)|(1110.12,2334.1;1110.12,2328.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1110.69,2316.75;1110.69,2321.95)|(1110.12,2321.95;1110.12,2315.363)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1405.04,2020;1405.04,2029.75)|(1403.65,2029.75;1403.65,2020.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1504.53,2411.271;1504.53,2419.35)|(1503.28,2419.35;1503.28,2412.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1188.23,1829.45;1188.23,1834.95)|(1187.8,1834.95;1187.8,1828.013)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (827.75,2231.595;827.75,2235.329)|(826.5,2234.5;826.5,2231.595)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1405.04,2036.795;1405.04,2038.6)|(1403.65,2039.164;1403.65,2036.795)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (827.75,2219.35;827.75,2224.55)|(826.5,2224.55;826.5,2218.521)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1504.53,2426.395;1504.53,2428.379)|(1503.28,2427.55;1503.28,2426.395)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (846.96,1731.9;846.96,1737.55)|(846.07,1737.55;846.07,1730.693)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (724.2,2118.176;724.2,2127.15)|(723.73,2127.15;723.73,2119.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (471.67,2803.7;471.67,2808.95)|(470.41,2808.95;470.41,2802.886)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (763.6,1728.411;763.6,1737.55)|(763.42,1737.55;763.42,1729.9)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (724.2,2134.195;724.2,2137.924)|(723.73,2136.5;723.73,2134.195)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (872.67,3010.795;872.67,3017.2)|(872.06,3015.9;872.06,3010.795)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (872.67,2998.5;872.67,3003.75)|(872.06,3003.75;872.06,2997.13)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1646.31,1841.995;1646.31,1843.856)|(1645.49,1842.6;1645.49,1841.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1348.03,1939.395;1348.03,1941.927)|(1347.1,1940.75;1347.1,1939.395)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1009.32,2328.995;1009.32,2334.587)|(1008.11,2333.7;1008.11,2328.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (471.67,2815.995;471.67,2819.714)|(470.41,2818.9;470.41,2815.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1009.32,2316.7;1009.32,2321.95)|(1008.11,2321.95;1008.11,2315.813)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (780.83,1841.995;780.83,1846.7)|(779.84,1845.6;779.84,1841.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1636.41,2231.595;1636.41,2235.854)|(1635.06,2235.2;1635.06,2231.595)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (932.44,673.195;932.44,678.207)|(931.92,676.8;931.92,673.195)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (921.87,464.1;921.87,471.35)|(921.55,471.35;921.55,463.7)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1200.43,1046;1200.43,1055.75)|(1199.29,1055.75;1199.29,1046)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1500.31,478.395;1500.31,483.1)|(1499.85,483.2;1499.85,478.395)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (932.44,657.9;932.44,666.15)|(931.92,666.15;931.92,656.493)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (777.55,575.795;777.55,580.9)|(776.24,580.5;776.24,575.795)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (791.75,364.3;791.75,373.95)|(790.97,373.95;790.97,364.3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (861.32,1046.7;861.32,1055.75)|(861.18,1055.75;861.18,1047.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (778.77,1342.75;778.77,1347.95)|(778.06,1347.95;778.06,1341.429)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1673.11,673.195;1673.11,678.3)|(1671.96,678;1671.96,673.195)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1500.31,461.7;1500.31,471.35)|(1499.85,471.35;1499.85,463.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (900.01,1046.293;900.01,1055.75)|(899.12,1055.75;899.12,1047.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1485.87,770.595;1485.87,775.7)|(1484.96,775.4;1484.96,770.595)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1250.42,854.259;1250.42,860.95)|(1250.26,860.95;1250.26,855.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1202.94,1354.995;1202.94,1358.011)|(1201.99,1356.85;1201.99,1354.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (554.23,1243.3;554.23,1250.55)|(553.33,1250.55;553.33,1242.9)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1245.12,753.8;1245.12,763.55)|(1244.9,763.55;1244.9,753.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1269.54,1160.195;1269.54,1162.625)|(1268.75,1161.35;1268.75,1160.195)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1253.96,563.5;1253.96,568.75)|(1253.64,568.75;1253.64,562.035)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (991.45,1160.195;991.45,1162.5)|(989.96,1162.673;989.96,1160.195)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1181.94,1160.195;1181.94,1162)|(1181.32,1162.05;1181.32,1160.195)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (861.32,1062.795;861.32,1064.15)|(861.18,1065.643;861.18,1062.795)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1181.94,1146.584;1181.94,1153.15)|(1181.32,1153.15;1181.32,1147.95)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (554.23,1257.595;554.23,1258.75)|(553.33,1259.95;553.33,1257.595)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1269.54,1144.625;1269.54,1153.15)|(1268.75,1153.15;1268.75,1145.9)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (921.87,478.395;921.87,479.55)|(921.55,481.015;921.55,478.395)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1253.96,575.795;1253.96,580.165)|(1253.64,578.7;1253.64,575.795)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1250.42,867.995;1250.42,871.341)|(1250.26,869.85;1250.26,867.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (666.23,1633.35;666.23,1640.15)|(664.9,1640.15;664.9,1632.656)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (710.97,1549.795;710.97,1554.5)|(709.6,1554.9;709.6,1549.795)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1635.08,867.995;1635.08,869.8)|(1634.76,869.15;1634.76,867.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1200.43,1062.795;1200.43,1064.6)|(1199.29,1065.575;1199.29,1062.795)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (710.97,1533.1;710.97,1542.75)|(709.6,1542.75;709.6,1533)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1635.08,852.235;1635.08,860.95)|(1634.76,860.95;1634.76,853.7)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1612.01,478.395;1612.01,479.75)|(1611.29,481.066;1611.29,478.395)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (872.43,575.795;872.43,581.775)|(871.64,580.5;871.64,575.795)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1202.94,1341.589;1202.94,1347.95)|(1201.99,1347.95;1201.99,1342.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (778.77,1354.995;778.77,1359.3)|(778.06,1358.6;778.06,1354.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (872.43,563.5;872.43,568.75)|(871.64,568.75;871.64,562.225)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (900.01,1062.795;900.01,1064.6)|(899.12,1065.807;899.12,1062.795)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1245.12,770.595;1245.12,777.184)|(1244.9,775.7;1244.9,770.595)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1485.87,755.3;1485.87,763.55)|(1484.96,763.55;1484.96,755.3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (809.18,364.3;809.18,373.95)|(808.55,373.95;808.55,364.3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (991.45,1148.1;991.45,1153.15)|(989.96,1153.15;989.96,1147.927)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (777.55,560.5;777.55,568.75)|(776.24,568.75;776.24,559.769)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1673.11,657.9;1673.11,666.15)|(1671.96,666.15;1671.96,657.9)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (770.04,854.15;770.04,860.95)|(768.62,860.95;768.62,854.15)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (809.18,380.995;809.18,385.7)|(808.55,385.7;808.55,380.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (791.75,380.995;791.75,385.7)|(790.97,385.7;790.97,380.995)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2029.73,461.761;2029.73,471.35)|(2028.33,471.35;2028.33,462.3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2767.92,858.3;2767.92,860.95)|(2766.75,860.95;2766.75,857.361)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2901.81,673.195;2901.81,678)|(2901.23,679.383;2901.23,673.195)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2336.86,1143.504;2336.86,1153.15)|(2336.31,1153.15;2336.31,1144.9)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2046.64,560.184;2046.64,568.75)|(2045.92,568.75;2045.92,561.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2993.53,1257.595;2993.53,1262.7)|(2992.28,1263.529;2992.28,1257.595)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1941.19,1160.195;1941.19,1162)|(1941.14,1163.499;1941.14,1160.195)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2814.49,1046;2814.49,1055.75)|(2814.3,1055.75;2814.3,1046.7)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2796.11,965.395;2796.11,974.522)|(2795.82,973.05;2795.82,965.395)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2993.53,1242.921;2993.53,1250.55)|(2992.28,1250.55;2992.28,1243.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2814.49,1062.795;2814.49,1064.6)|(2814.3,1064.15;2814.3,1062.795)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2685.67,1439.7;2685.67,1445.35)|(2684.21,1445.35;2684.21,1439.356)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2582.97,283.595;2582.97,285.462)|(2581.65,284.75;2581.65,283.595)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2481.83,1160.195;2481.83,1162)|(2480.34,1162.173;2480.34,1160.195)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2744.83,661.1;2744.83,666.15)|(2744.67,666.15;2744.67,659.609)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2685.67,1452.395;2685.67,1454.094)|(2684.21,1453.75;2684.21,1452.395)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2481.83,1143.4;2481.83,1153.15)|(2480.34,1153.15;2480.34,1143.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2796.11,950.078;2796.11,958.35)|(2795.82,958.35;2795.82,951.55)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2376.99,1438.1;2376.99,1445.35)|(2375.61,1445.35;2375.61,1437.512)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2793.3,1062.795;2793.3,1064.15)|(2793.23,1063.95;2793.23,1062.795)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2278.42,1062.795;2278.42,1067.5)|(2278.27,1067.5;2278.27,1062.795)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2336.86,1160.195;2336.86,1166.396)|(2336.31,1165;2336.31,1160.195)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2793.3,1047.002;2793.3,1055.75)|(2793.23,1055.75;2793.23,1048.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2189.01,575.795;2189.01,580.5)|(2188.04,580.5;2188.04,575.795)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2218.57,1442.7;2218.57,1445.35)|(2218.29,1445.35;2218.29,1441.226)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2744.83,673.195;2744.83,675.5)|(2744.67,676.991;2744.67,673.195)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2227.72,563.1;2227.72,568.75)|(2226.81,568.75;2226.81,561.908)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1941.19,1143.4;1941.19,1153.15)|(1941.14,1153.15;1941.14,1143.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2901.81,660.5;2901.81,666.15)|(2901.23,666.15;2901.23,659.35)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2029.73,478.395;2029.73,480.289)|(2028.33,479.75;2028.33,478.395)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2582.97,271.3;2582.97,276.55)|(2581.65,276.55;2581.65,270.588)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2227.72,575.795;2227.72,578.342)|(2226.81,577.15;2226.81,575.795)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2376.99,1452.395;2376.99,1453.55)|(2375.61,1454.138;2375.61,1452.395)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2530.51,1452.395;2530.51,1453.75)|(2530.25,1455.227;2530.25,1452.395)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2278.42,1046.1;2278.42,1055.75)|(2278.27,1055.75;2278.27,1046.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2189.01,559.1;2189.01,568.75)|(2188.04,568.75;2188.04,559.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'5.7.1 : Minimum Boron spacing violations =  1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2046.64,575.795;2046.64,577.6)|(2045.92,576.95;2045.92,575.795)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1286.798,642.1;1292.002,642.1)|(1290.65,642.75;1288.15,642.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1283.95,769.25;1286.45,769.25)|(1287.611,770.2;1282.789,770.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1295.119,934.3;1300.481,934.3)|(1299.05,934.75;1296.55,934.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (954.998,642.1;960.202,642.1)|(958.85,642.75;956.35,642.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1333.114,2297.9;1338.086,2297.9)|(1336.85,2298.75;1334.35,2298.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2130.93,1226.5;2180.02,1226.5)|(2178.55,1226.8;2132.4,1226.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1744.451,1518.7;1749.949,1518.7)|(1748.45,1518.75;1745.95,1518.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1619.121,1713.5;1623.279,1713.5)|(1622.45,1714.75;1619.95,1714.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (933.851,1518.7;939.349,1518.7)|(937.85,1518.75;935.35,1518.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (3008.651,1518.7;3014.149,1518.7)|(3012.65,1518.75;3010.15,1518.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (922.75,1841.25;925.25,1841.25)|(926.709,1841.6;921.291,1841.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1258.75,2425.25;1261.25,2425.25)|(1262.549,2426;1257.451,2426)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (744.998,2590.1;750.202,2590.1)|(748.85,2590.75;746.35,2590.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1289.323,642.1;1296.127,642.1)|(1294.8,642.8;1290.65,642.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1297.636,934.3;1331.564,934.3)|(1330.15,934.8;1299.05,934.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1089.319,2882.3;1094.681,2882.3)|(1093.25,2882.75;1090.75,2882.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1286.45,769.2;1296.55,769.2)|(1297.668,770.2;1285.332,770.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1342.75,2133.25;1345.25,2133.25)|(1346.646,2133.8;1341.354,2133.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1091.836,2882.3;1108.964,2882.3)|(1107.55,2882.8;1093.25,2882.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1106.119,2882.3;1111.481,2882.3)|(1110.05,2882.75;1107.55,2882.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2227.879,2005.7;2232.521,2005.7)|(2231.45,2006.75;2228.95,2006.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2599.723,2590.1;2629.277,2590.1)|(2627.95,2590.8;2601.05,2590.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2185.519,934.3;2190.881,934.3)|(2189.45,934.75;2186.95,934.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (936.353,1518.7;953.647,1518.7)|(952.15,1518.8;937.85,1518.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1296.55,769.25;1299.05,769.25)|(1300.211,770.2;1295.389,770.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2513.479,2005.7;2518.121,2005.7)|(2517.05,2006.75;2514.55,2006.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1111.75,477.25;1114.25,477.25)|(1115.549,478;1110.451,478)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2307.271,1226.5;2312.729,1226.5)|(2311.25,1226.75;2308.75,1226.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (3011.153,1518.7;3024.247,1518.7)|(3022.75,1518.8;3012.65,1518.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2449.102,1713.5;2454.748,1713.5)|(2454,1714.8;2449.85,1714.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1114.25,477.2;1149.55,477.2)|(1150.819,478;1112.981,478)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1324.598,642.1;1329.802,642.1)|(1328.45,642.75;1325.95,642.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2597.198,2590.1;2602.402,2590.1)|(2601.05,2590.75;2598.55,2590.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2304.55,1549.25;2307.05,1549.25)|(2308.542,1549.4;2303.058,1549.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1149.55,477.25;1152.05,477.25)|(1153.349,478;1148.251,478)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2626.598,2590.1;2631.802,2590.1)|(2630.45,2590.75;2627.95,2590.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (593.651,1518.7;599.149,1518.7)|(597.65,1518.75;595.15,1518.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2446.521,1713.5;2450.679,1713.5)|(2449.85,1714.75;2447.35,1714.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1517.719,934.3;1523.081,934.3)|(1521.65,934.75;1519.15,934.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (699.766,1421.3;703.034,1421.3)|(702.65,1422.75;700.15,1422.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1328.719,934.3;1334.081,934.3)|(1332.65,934.75;1330.15,934.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1286.45,2133.2;1342.75,2133.2)|(1344.125,2133.8;1285.075,2133.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (804.079,2005.7;808.721,2005.7)|(807.65,2006.75;805.15,2006.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1283.95,2133.25;1286.45,2133.25)|(1287.846,2133.8;1282.554,2133.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2525.453,1518.7;2528.647,1518.7)|(2527.15,1518.8;2526.95,1518.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1307.798,642.1;1313.002,642.1)|(1311.65,642.75;1309.15,642.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2294.45,1549.2;2304.55,1549.2)|(2306.037,1549.4;2292.963,1549.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2291.95,1549.25;2294.45,1549.25)|(2295.942,1549.4;2290.458,1549.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (806.63,2005.7;822.97,2005.7)|(821.95,2006.8;807.65,2006.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (820.879,2005.7;825.521,2005.7)|(824.45,2006.75;821.95,2006.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2081.95,1353.25;2084.45,1353.25)|(2085.104,1354.6;2081.296,1354.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1484.071,1226.5;1489.529,1226.5)|(1488.05,1226.75;1485.55,1226.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2177.071,1226.5;2182.529,1226.5)|(2181.05,1226.75;2178.55,1226.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (602.051,1518.7;607.549,1518.7)|(606.05,1518.75;603.55,1518.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1778.051,1518.7;1783.549,1518.7)|(1782.05,1518.75;1779.55,1518.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (3021.251,1518.7;3026.749,1518.7)|(3025.25,1518.75;3022.75,1518.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (596.153,1518.7;605.047,1518.7)|(603.55,1518.8;597.65,1518.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2506.91,2005.7;2515.57,2005.7)|(2514.55,2006.8;2507.93,2006.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (950.651,1518.7;956.149,1518.7)|(954.65,1518.75;952.15,1518.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1746.953,1518.7;1781.047,1518.7)|(1779.55,1518.8;1748.45,1518.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1310.323,642.1;1327.277,642.1)|(1325.95,642.8;1311.65,642.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'8.1.1 : Minimum Metal1 spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2525.651,1518.7;2531.149,1518.7)|(2529.65,1518.75;2527.15,1518.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1356.58,2406.75;1356.58,2407.7;1358.08,2407.7;1358.08,2406.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2622.97,2114.75;2622.97,2115.5;2624.47,2115.5;2624.47,2114.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1969.83,2016.75;1969.83,2018.1;1971.33,2018.1;1971.33,2016.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2663.81,1140.75;2663.81,1141.5;2665.31,1141.5;2665.31,1140.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1684.27,1432.75;1684.27,1433.7;1685.77,1433.7;1685.77,1432.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1930.36,1042.75;1930.36,1044.1;1931.86,1044.1;1931.86,1042.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1328.64,1140.75;1328.64,1141.5;1330.14,1141.5;1330.14,1140.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2243.39,1724.75;2243.39,1725.9;2244.89,1725.9;2244.89,1724.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (904.58,1724.75;904.58,1725.9;906.08,1725.9;906.08,1724.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2271.22,1042.75;2271.22,1044.1;2272.72,1044.1;2272.72,1042.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2496.11,2114.75;2496.11,2115.5;2497.61,2115.5;2497.61,2114.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2451.92,1140.75;2451.92,1141.5;2453.42,1141.5;2453.42,1140.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2806.54,458.75;2806.54,459.7;2808.04,459.7;2808.04,458.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2280.18,2016.75;2280.18,2018.1;2281.68,2018.1;2281.68,2016.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (953.21,1140.75;953.21,1141.5;954.71,1141.5;954.71,1140.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2473.29,1140.75;2473.29,1141.5;2474.79,1141.5;2474.79,1140.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2671.17,750.75;2671.17,751.9;2672.67,751.9;2672.67,750.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1570.8,1140.75;1570.8,1141.5;1572.3,1141.5;1572.3,1140.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1458.26,1724.75;1458.26,1725.9;1459.76,1725.9;1459.76,1724.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (781.62,1140.75;781.62,1141.5;783.12,1141.5;783.12,1140.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1931.27,750.75;1931.27,751.9;1932.77,751.9;1932.77,750.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2529.38,1140.75;2529.38,1141.5;2530.88,1141.5;2530.88,1140.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1514.28,2406.75;1514.28,2407.7;1515.78,2407.7;1515.78,2406.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2244.8,1140.75;2244.8,1141.5;2246.3,1141.5;2246.3,1140.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1510.06,458.75;1510.06,459.7;1511.56,459.7;1511.56,458.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1714.98,1140.75;1714.98,1141.5;1716.48,1141.5;1716.48,1140.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2039.48,458.75;2039.48,459.7;2040.98,459.7;2040.98,458.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (787.39,2406.75;787.39,2407.7;788.89,2407.7;788.89,2406.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1210.58,1822.75;1210.58,1823.6;1212.08,1823.6;1212.08,1822.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1339.78,1042.75;1339.78,1044.1;1341.28,1044.1;1341.28,1042.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1692.12,1140.75;1692.12,1141.5;1693.62,1141.5;1693.62,1140.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1267.94,1724.75;1267.94,1725.9;1269.44,1725.9;1269.44,1724.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (774.28,1042.75;774.28,1044.1;775.78,1044.1;775.78,1042.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2694.87,750.75;2694.87,751.9;2696.37,751.9;2696.37,750.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (865.93,458.75;865.93,459.7;867.43,459.7;867.43,458.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (736.32,750.75;736.32,751.9;737.82,751.9;737.82,750.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1631.97,750.75;1631.97,751.9;1633.47,751.9;1633.47,750.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2783.18,1724.75;2783.18,1725.9;2784.68,1725.9;2784.68,1724.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1396.02,750.75;1396.02,751.9;1397.52,751.9;1397.52,750.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.3.1 : Minimum via to contact spacing violations = 1.5um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1232.96,1724.75;1232.96,1725.9;1234.46,1725.9;1234.46,1724.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (865.93,458.75;867.43,458.75)/(868.13,459;864.756,459)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2244.02,2600.75;2245.52,2600.75)/(2246.101,2601.8;2243.439,2601.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (953.21,1140.75;954.71,1140.75)/(955.41,1140.8;952.011,1140.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2014.43,360.75;2015.93,360.75)/(2016.63,361.6;2013.583,361.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2039.48,458.75;2040.98,458.75)/(2041.68,459;2038.306,459)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1403.55,651.9;1403.55,650.4)/(1403.87,649.243;1403.87,653.057)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (736.32,750.75;737.82,750.75)/(738.52,751.2;735.208,751.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2473.29,1140.75;2474.79,1140.75)/(2475.49,1140.8;2472.091,1140.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1631.97,750.75;1633.47,750.75)/(1634.17,751.2;1630.858,751.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1396.02,750.75;1397.52,750.75)/(1398.22,751.2;1394.908,751.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2694.87,750.75;2696.37,750.75)/(2697.07,751.2;2693.758,751.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2451.92,1140.75;2453.42,1140.75)/(2454.12,1140.8;2450.721,1140.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2004.15,667.25;2002.65,667.25)/(2002.307,666.1;2004.493,666.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1608.69,1626.75;1610.19,1626.75)/(1610.771,1627.8;1608.109,1627.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2271.22,1042.75;2272.72,1042.75)/(2273.42,1043.4;2270.211,1043.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1328.64,1140.75;1330.14,1140.75)/(1330.84,1140.8;1327.441,1140.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1969.83,2016.75;1971.33,2016.75)/(1972.03,2017.4;1968.821,2017.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2344.35,2210.3;2344.35,2208.8)/(2344.71,2207.655;2344.71,2211.445)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1267.94,1724.75;1269.44,1724.75)/(1270.14,1725.2;1266.828,1725.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1232.96,1724.75;1234.46,1724.75)/(1235.16,1725.2;1231.848,1725.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2622.97,2114.75;2624.47,2114.75)/(2625.17,2114.8;2621.771,2114.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1931.27,750.75;1932.77,750.75)/(1933.47,751.2;1930.158,751.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1514.28,2406.75;1515.78,2406.75)/(1516.48,2407;1513.106,2407)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2708.05,952.2;2708.05,953.7)/(2707.96,954.897;2707.96,951.003)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (787.39,2406.75;788.89,2406.75)/(789.59,2407;786.216,2407)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2243.39,1724.75;2244.89,1724.75)/(2245.59,1725.2;2242.278,1725.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2243.84,2308.75;2245.34,2308.75)/(2246.04,2309.6;2242.993,2309.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2966,360.75;2967.5,360.75)/(2968.2,361.6;2965.153,361.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1458.26,1724.75;1459.76,1724.75)/(1460.46,1725.2;1457.148,1725.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (774.28,1042.75;775.78,1042.75)/(776.48,1043.4;773.271,1043.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1210.58,1822.75;1212.08,1822.75)/(1213.271,1822.9;1209.88,1822.9)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2783.18,1724.75;2784.68,1724.75)/(2785.38,1725.2;2782.068,1725.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1995.75,667.25;1995.217,667.25)/(1995.56,666.1;1996.093,666.1)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1911.14,652.75;1912.64,652.75)/(1913.221,653.8;1910.559,653.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2671.17,750.75;2672.67,750.75)/(2673.37,751.2;2670.058,751.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1714.98,1140.75;1716.48,1140.75)/(1717.18,1140.8;1713.781,1140.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (783.92,360.75;785.42,360.75)/(786.12,361.6;783.073,361.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1268.43,360.75;1269.93,360.75)/(1270.63,361.6;1267.583,361.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1684.27,1432.75;1685.77,1432.75)/(1686.47,1433;1683.096,1433)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1396.36,1724.75;1397.86,1724.75)/(1398.441,1725.8;1395.779,1725.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2244.8,1140.75;2246.3,1140.75)/(2247,1140.8;2243.601,1140.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1510.06,458.75;1511.56,458.75)/(1512.26,459;1508.886,459)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1001.06,2308.75;1002.56,2308.75)/(1003.26,2309.6;1000.213,2309.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (818.93,360.75;820.43,360.75)/(821.13,361.6;818.083,361.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2496.11,2114.75;2497.61,2114.75)/(2498.31,2114.8;2494.911,2114.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2806.54,458.75;2808.04,458.75)/(2808.74,459;2805.366,459)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1339.78,1042.75;1341.28,1042.75)/(1341.98,1043.4;1338.771,1043.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2280.18,2016.75;2281.68,2016.75)/(2282.38,2017.4;2279.171,2017.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2519,360.75;2520.5,360.75)/(2521.2,361.6;2518.153,361.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1994.25,667.25;1994.25,668.75)/(1993.66,669.795;1993.66,666.205)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2529.38,1140.75;2530.88,1140.75)/(2531.58,1140.8;2528.181,1140.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2709.55,953.7;2709.55,952.2)/(2709.86,951.041;2709.86,954.859)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2663.81,1140.75;2665.31,1140.75)/(2666.01,1140.8;2662.611,1140.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1692.12,1140.75;1693.62,1140.75)/(1694.32,1140.8;1690.921,1140.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (904.58,1724.75;906.08,1724.75)/(906.78,1725.2;903.468,1725.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1212.69,1334.75;1214.19,1334.75)/(1214.89,1335.6;1211.843,1335.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1356.58,2406.75;1358.08,2406.75)/(1358.78,2407;1355.406,2407)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (781.62,1140.75;783.12,1140.75)/(783.82,1140.8;780.421,1140.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1570.8,1140.75;1572.3,1140.75)/(1573,1140.8;1569.601,1140.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'9.4.1 : Minimum via to Poly spacing violations = 1.2um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1930.36,1042.75;1931.86,1042.75)/(1932.56,1043.4;1929.351,1043.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.7um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1190.98,564.48;1190.98,564.9)|(1189.85,566.17;1189.85,565.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'10.1.1 : Minimum Metal2 to Metal2 spacing violations = 1.7um'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1190.98,564.9;1191.322,564.9)|(1189.85,565.75;1189.508,565.75)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>' @GUIDELINE-6 AVOID PLACING vias ON diff EDGES'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2537.68,649.25;2537.68,649.95;2539.18,649.95;2539.18,649.25)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>' @GUIDELINE-6 AVOID PLACING vias ON diff EDGES'</category>
+   <cell>fir2d_top</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2533.44,747.25;2533.44,747.35;2534.94,747.35;2534.94,747.25)</value>
+   </values>
+  </item>
+ </items>
+</report-database>
